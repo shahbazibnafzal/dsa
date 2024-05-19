@@ -7,7 +7,7 @@
 
 def printPattern(N):
     for i in range(N):
-            print("* "*i)
+            print("* "*(i+1))
     
 
 printPattern(5)
